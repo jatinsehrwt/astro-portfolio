@@ -63,7 +63,7 @@ const openGraph = {
         { name: "generator", content: Astro.generator },
         {
           name: "twitter:image",
-          content: openGraph.image,
+          content: openGraph.url + openGraph.image,
         },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
