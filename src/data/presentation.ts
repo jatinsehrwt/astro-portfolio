@@ -18,7 +18,7 @@ const presentation: Presentation = {
   title: "Hi, I'm Jatin Sehrawat 👋",
   profile: "/profile-picture.jpg",
   description:
-    "Hello, I'm an *Indian developer* with over *2 years* of web experience. I am _currently_ studying *Master's in Computer Science* from University of Delhi. Always a curious and creative person, trying to learn and grow. Wandering with bliss",
+    "Hello, I'm an *Indian developer* with over *2 years* of web experience. I am _currently_ studying *Master's in Computer Science* from University of Delhi. Always a curious and creative person, trying to learn and grow. Just wandering with bliss.",
   socials: [
     {
       label: "E-mail",
