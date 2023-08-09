@@ -21,12 +21,17 @@ const { Content } = await post.render();
 ---
 
 <Layout title={post.data.title}>
-  <main class="post mx-auto flex w-full max-w-prose flex-col gap-4">
-    <header role="presentation">
-      <h1 class="text-md">
-        {post.data.title} - {formatDate(post.data.publishedAt)}
+  <main class="post mx-auto flex w-full max-w-4xl flex-col gap-4 px-6 py-4">
+    <header role="presentation" class="border-b-2 border-neutral-800">
+      <h1 class="text-2xl text-neutral-200">
+        {post.data.title}
       </h1>
-      <p class="italic">{post.data.description}</p>
+      <h1 class="text-base text-neutral-600">
+        ({formatDate(post.data.publishedAt)})
+      </h1>
+      <p class="py-2 italic text-neutral-400">
+        {post.data.description}
+      </p>
     </header>
 
     <Content />

@@ -9,10 +9,10 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 ---
 
 <Layout title="Template - All Posts">
-  <main class="flex flex-col gap-20">
+  <main class="mx-auto mb-12 flex w-full max-w-4xl flex-col gap-12 px-6 py-4">
     <h1 class="text-2xl text-neutral-100">Posts</h1>
 
-    <article class="flex flex-col gap-4">
+    <article class="flex flex-col">
       {
         posts.map((post) => (
           <a
@@ -46,7 +46,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
                 </svg>
               </div>
             </div>
-            <p>{post.data.description}</p>
+            <p class="text-sm italic">{post.data.description}</p>
           </a>
         ))
       }

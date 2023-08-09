@@ -8,6 +8,15 @@ module.exports = {
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'border-colors': '#e4e4e7',
+        'hi-contrast': '39 39 42',
+        'lo-contrast': '255 255 255',
+        'card': {
+          'start': '228 228 231',
+          'end': '212 212 216'
+        }
+      },
     },
   },
   plugins: [],
