@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        sans: ["Open Sans Variable", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         'border-colors': '#e4e4e7',
